@@ -9,8 +9,9 @@ public class Main
 		Scanner sc = new Scanner(System.in);
 		a = sc.nextInt();
 		b = sc.nextInt();
+
 		soma = a+b;
 		
-		System.out.println("A soma é: "+soma);
+		System.out.println("SOMA = "+soma);
 	}
 }
