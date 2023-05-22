@@ -5,7 +5,7 @@ public class Main
 	public static void main(String[] args) {
 		
 		int a, b, soma;
-		//learning scanner mode on java
+		//learning data entry on java
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("digite o primeiro numero: ");
