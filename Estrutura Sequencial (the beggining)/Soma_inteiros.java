@@ -13,6 +13,6 @@ public class Main
 		b = sc.nextInt();
 		soma = a+b;
 		
-		System.out.println("A soma é: "+soma);
+		System.out.println("SOMA = "+soma);
 	}
 }
