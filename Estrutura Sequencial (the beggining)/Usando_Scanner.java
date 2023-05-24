@@ -6,10 +6,11 @@ public class Usando_Scanner {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
-		String x;
-		x = sc.next();
+		//String x;
+		int x;
+		x = sc.nextInt();
 		
-		System.out.println("Você digitou a palavra: "+x);
+		System.out.println("Você digitou: "+x);
 		
 		sc.close();
 	}
