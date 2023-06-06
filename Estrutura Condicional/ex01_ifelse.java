@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class exercicio_ifelse {
@@ -6,6 +7,7 @@ public class exercicio_ifelse {
 		double x, y;
 		
 		Scanner sc  = new Scanner(System.in);
+		sc.useLocale(Locale.US);
 		
 		System.out.println("digite o valor de x: ");
 		x = sc.nextDouble();
