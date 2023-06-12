@@ -9,7 +9,7 @@ public class Ex01_for {
 		
 		x = sc.nextInt();
 		
-		for(i=0; i<x;i++) {
+		for(i=1; i<x;i++) {
 
 			if(i%2!=0) {
 				System.out.println("Ímpar! -> numero: " + i);
