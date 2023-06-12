@@ -12,7 +12,7 @@ public class Ex01_for {
 		for(i=0; i<x;i++) {
 
 			if(i%2!=0) {
-				System.out.println("Ímpar! -> numero: "+i);
+				System.out.println("Ímpar! -> numero: " + i);
 			}
 
 		}
