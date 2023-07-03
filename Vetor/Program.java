@@ -16,8 +16,15 @@ public class Program {
 			vect[i] = sc.nextDouble();
 		}
 		
-		double media = (vect[0] + vect[1] + vect[2]) /3.0;
-		System.out.printf("AVERAGE HEIGHT: %.2f\n", media);
+		double sum=0;
+		
+		for(int i=0; i<n; i++) {
+			sum += vect[i];
+		}
+		
+		double avg = sum / n; 
+		
+		System.out.printf("AVERAGE HEIGHT: %.2f\n", avg);
 		
 		sc.close();
 	}
