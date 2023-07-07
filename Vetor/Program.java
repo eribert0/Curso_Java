@@ -12,13 +12,13 @@ public class Program {
 		int n = sc.nextInt();
 		double[] vect = new double[n];
 		
-		for(int i=0; i<n; i++) {
+		for(int i = 0 ; i < n; i++) {
 			vect[i] = sc.nextDouble();
 		}
 		
-		double sum=0;
+		double sum = 0;
 		
-		for(int i=0; i<n; i++) {
+		for(int i = 0; i < n; i++) {
 			sum += vect[i];
 		}
 		
@@ -28,5 +28,4 @@ public class Program {
 		
 		sc.close();
 	}
-
 }
